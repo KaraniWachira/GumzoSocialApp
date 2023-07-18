@@ -1,0 +1,43 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-sora: Sora;
+
+  /* font sizes */
+  --font-size-base-6: 15.6px;
+  --font-size-lgi-4: 19.4px;
+  --font-size-smi-5: 12.5px;
+  --font-size-smi-4: 12.4px;
+
+  /* Colors */
+  --color-aliceblue: #f1faff;
+  --color: #0f191a;
+  --color1: rgba(15, 25, 26, 0.5);
+  --color-white: #fff;
+  --color-tomato: #ff5a60;
+  --color-khaki: #ffee93;
+  --color-mediumslateblue: #4361ee;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

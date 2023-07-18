@@ -1,0 +1,722 @@
+
+.home-page-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #a9def9;
+    width: 1440px;
+    height: 135px;
+  }
+  .group-child,
+  .group-item {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color);
+    width: 622px;
+    height: 55px;
+  }
+  .group-item {
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+  }
+  .vuesaxlinearsearch-normal-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .search-for-friends {
+    position: relative;
+    top: 2px;
+    left: 40px;
+  }
+  .vuesaxlinearsearch-normal {
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    width: 24px;
+    height: 24px;
+  }
+  .home-page-inner,
+  .rectangle-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 625px;
+    height: 58px;
+  }
+  .home-page-inner {
+    top: 40px;
+    left: 191px;
+    color: var(--color1);
+  }
+  .group-inner,
+  .home-page-item {
+    position: absolute;
+    object-fit: cover;
+  }
+  .home-page-item {
+    top: 40px;
+    left: 80px;
+    border-radius: var(--br-5xs);
+    width: 55px;
+    height: 55px;
+  }
+  .group-inner {
+    top: 0;
+    left: 16px;
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+  }
+  .steve-rogers {
+    position: absolute;
+    top: 112px;
+    left: 0;
+    font-weight: 500;
+  }
+  .rectangle-group {
+    position: absolute;
+    top: 40px;
+    left: 42px;
+    width: 131px;
+    height: 136px;
+    font-size: var(--font-size-lgi-4);
+  }
+  .explore-panel,
+  .profile {
+    position: absolute;
+    font-weight: 500;
+  }
+  .explore-panel {
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-lgi-4);
+    color: var(--color-tomato);
+  }
+  .profile {
+    top: 6px;
+    left: 44px;
+  }
+  .group-icon,
+  .profile-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    
+  }
+  .profile-parent {
+    top: 48px;
+    width: 96px;
+  }
+  .find-friends-parent,
+  .user-analytics-parent {
+    position: absolute;
+    top: 104px;
+    left: 0;
+    width: 139px;
+    height: 32px;
+    cursor: pointer;
+  }
+  .user-analytics-parent {
+    top: 160px;
+    width: 156px;
+  }
+  .explore-panel-parent,
+  .settings-group {
+    position: absolute;
+    top: 256px;
+    left: 24px;
+    width: 156px;
+    height: 192px;
+    cursor: pointer;
+  }
+  .settings-group {
+    top: 48px;
+    left: 0;
+    width: 112px;
+    height: 32px;
+  }
+  .log-out-parent,
+  .security-data-parent {
+    position: absolute;
+    top: 104px;
+    left: 0;
+    width: 150px;
+    height: 32px;
+  }
+  .log-out-parent {
+    top: 160px;
+    width: 105px;
+    color: #d90429;
+    cursor: pointer;
+  }
+  .left-panel,
+  .settings-parent {
+    position: absolute;
+    top: 520px;
+    left: 24px;
+    width: 150px;
+    height: 192px;
+    cursor: pointer;
+  }
+  .left-panel {
+    top: 135px;
+    left: 0;
+    background-color: var(--color-white);
+    box-shadow: -3px 0 50px rgba(169, 222, 249, 0.25);
+    width: 215px;
+    height: 889px;
+    overflow: hidden;
+  }
+  .people-you-may,
+  .tony-stark {
+    position: absolute;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .people-you-may {
+    top: 24px;
+    left: 24px;
+    font-size: var(--font-size-lgi-4);
+    color: var(--color-tomato);
+  }
+  .tony-stark {
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-base-6);
+  }
+  .i-am-a,
+  .m-followers {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    color: var(--color1);
+  }
+  .m-followers {
+    top: 44px;
+    font-weight: 500;
+    color: var(--color-mediumslateblue);
+  }
+  .rectangle-icon,
+  .tony-stark-parent {
+    position: absolute;
+    top: 5px;
+    left: 78px;
+    width: 210px;
+    height: 60px;
+  }
+  .rectangle-icon {
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+  .group-parent,
+  .left-panel-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 288px;
+    height: 70px;
+  }
+  .left-panel-inner {
+    top: 80px;
+    left: 24px;
+  }
+  .green-human-with {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    color: var(--color1);
+    display: inline-block;
+    width: 210px;
+  }
+  .left-panel-child {
+    position: absolute;
+    top: 174px;
+    left: 24px;
+    width: 288px;
+    height: 70px;
+  }
+  .ellipse-icon,
+  .left-panel-item {
+    position: absolute;
+    top: 267.25px;
+    left: 40px;
+    width: 238px;
+    height: 1.5px;
+  }
+  .ellipse-icon {
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .natasha-ramanoff {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+  }
+  .tagged-you-in {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    font-size: var(--font-size-smi-4);
+    color: var(--color1);
+  }
+  .ellipse-parent,
+  .natasha-ramanoff-parent {
+    position: absolute;
+    top: 1px;
+    left: 52px;
+    width: 200px;
+    height: 38px;
+  }
+  .ellipse-parent {
+    top: 292px;
+    left: 32px;
+    width: 252px;
+    height: 40px;
+    font-size: var(--font-size-base-6);
+  }
+  .barton-clint-parent {
+    position: absolute;
+    top: 1px;
+    left: 52px;
+    width: 209px;
+    height: 38px;
+  }
+  .ellipse-group,
+  .left-panel1 {
+    position: absolute;
+    top: 356px;
+    left: 32px;
+    width: 261px;
+    height: 40px;
+    font-size: var(--font-size-base-6);
+  }
+  .left-panel1 {
+    top: 175px;
+    left: 1122px;
+    background-color: var(--color-white);
+    box-shadow: -3px 0 50px rgba(169, 222, 249, 0.25);
+    width: 318px;
+    height: 410px;
+    overflow: hidden;
+    font-size: var(--font-size-smi-5);
+  }
+  .boost-your-post {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    font-weight: 500;
+  }
+  .left-panel-child1 {
+    position: absolute;
+    top: 72px;
+    left: 24px;
+    width: 270px;
+    height: 201px;
+    object-fit: cover;
+  }
+  .steve-rogers1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    color: var(--color);
+  }
+  .dog-named-bruno,
+  .with-my-lovable {
+    position: absolute;
+    top: 0;
+    left: 135px;
+    display: inline-block;
+    width: 135px;
+  }
+  .dog-named-bruno {
+    top: 26px;
+    left: 0;
+    width: 270px;
+  }
+  .steve-rogers-parent {
+    position: absolute;
+    top: 289px;
+    left: 24px;
+    width: 270px;
+    height: 46px;
+    font-size: var(--font-size-base-6);
+    color: var(--color1);
+  }
+  .group-child8,
+  .others-liked-your {
+    position: absolute;
+    top: 4px;
+    left: 71px;
+  }
+  .group-child8 {
+    top: -0.75px;
+    left: 0;
+    width: 63.75px;
+    height: 25.5px;
+  }
+  .left-panel2,
+  .others-liked-your-post-parent {
+    position: absolute;
+    top: 347px;
+    left: 24px;
+    width: 270px;
+    height: 24px;
+    font-size: var(--font-size-smi-5);
+    color: var(--color-mediumslateblue);
+  }
+  .left-panel2 {
+    top: 617px;
+    left: 1122px;
+    background-color: var(--color-white);
+    box-shadow: -3px 0 50px rgba(169, 222, 249, 0.25);
+    width: 318px;
+    height: 407px;
+    overflow: hidden;
+    font-size: var(--font-size-lgi-4);
+    color: var(--color-tomato);
+  }
+  .group-child9 {
+    position: absolute;
+    top: 1px;
+    left: 233px;
+    width: 203px;
+    height: 55px;
+  }
+  .group-child10,
+  .rectangle-div {
+    position: absolute;
+    border-radius: var(--br-5xs);
+    width: 55px;
+    height: 55px;
+  }
+  .rectangle-div {
+    top: 3px;
+    left: 3px;
+    background-color: var(--color);
+  }
+  .group-child10 {
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  .rectangle-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58px;
+    height: 58px;
+  }
+  .steve-rogers2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+  }
+  .steve-rogers3 {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    font-size: var(--font-size-smi-4);
+  }
+  .steve-rogers-group {
+    position: absolute;
+    top: 7px;
+    left: 70px;
+    width: 106px;
+    height: 40px;
+  }
+  .group-child11,
+  .group-div,
+  .group-parent1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 176px;
+    height: 58px;
+  }
+  .group-child11,
+  .group-div {
+    top: 39px;
+    left: 948px;
+    width: 436px;
+  }
+  .group-child11 {
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    box-shadow: 0 2px 50px rgba(169, 222, 249, 0.24);
+    width: 795px;
+    height: 215px;
+  }
+  .ellipse-div,
+  .vector-icon {
+    position: absolute;
+    top: 63.25px;
+    left: 0;
+    width: 747px;
+    height: 1.5px;
+  }
+  .ellipse-div {
+    top: 0;
+    border-radius: 50%;
+    background-color: var(--color-khaki);
+    width: 40px;
+    height: 40px;
+  }
+  .vuesaxboldedit-2-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .write-a-post {
+    position: absolute;
+    top: 10px;
+    left: 52px;
+    font-weight: 500;
+  }
+  .ellipse-container,
+  .ellipse-parent1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 149px;
+    height: 40px;
+  }
+  .ellipse-parent1 {
+    left: 213px;
+    width: 163px;
+  }
+  .ellipse-parent2,
+  .group-child14,
+  .group-parent2 {
+    position: absolute;
+    top: 0;
+    left: 440px;
+    width: 159px;
+    height: 40px;
+  }
+  .group-child14,
+  .group-parent2 {
+    left: 0;
+    width: 599px;
+  }
+  .group-child14 {
+    background-color: var(--color-aliceblue);
+    width: 747px;
+    height: 79px;
+  }
+  .write-something-here {
+    position: absolute;
+    top: 0;
+    left: 24px;
+  }
+  .vuesaxboldedit-2-icon1,
+  .write-something-here-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+  }
+  .write-something-here-parent {
+    top: 16px;
+    left: 16px;
+    width: 172px;
+  }
+  .rectangle-parent2 {
+    position: absolute;
+    top: 88px;
+    left: 0;
+    width: 747px;
+    height: 79px;
+    font-size: var(--font-size-smi-5);
+    color: var(--color1);
+  }
+  .vector-parent {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 747px;
+    height: 167px;
+  }
+  .rectangle-parent1 {
+    position: absolute;
+    top: 175px;
+    left: 271px;
+    width: 795px;
+    height: 215px;
+  }
+  .tony-stark-3000 {
+    position: absolute;
+    top: 2px;
+    left: 116px;
+    font-size: var(--font-size-base-6);
+    color: var(--color1);
+  }
+  .tony-stark-group {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 271px;
+    height: 24px;
+  }
+  .cognitive-person {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    font-size: var(--font-size-base-6);
+  }
+  .group-parent4 {
+    position: absolute;
+    top: 9px;
+    left: 86px;
+    width: 474px;
+    height: 52px;
+  }
+  .rectangle-parent4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 560px;
+    height: 70px;
+  }
+  .looking-for-an {
+    margin: 0;
+  }
+  .looking-for-an-container {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    color: var(--color);
+  }
+  .immediate-hiring-parent {
+    position: absolute;
+    top: 91px;
+    left: 86px;
+    width: 498px;
+    height: 68px;
+    font-size: var(--font-size-base-6);
+    color: var(--color-tomato);
+  }
+  .group-parent3 {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 584px;
+    height: 159px;
+  }
+  .rectangle-parent3 {
+    position: absolute;
+    top: 430px;
+    left: 271px;
+    width: 795px;
+    height: 215px;
+    font-size: var(--font-size-lgi-4);
+  }
+  .group-child17 {
+    background-color: var(--color-white);
+    box-shadow: 0 2px 50px rgba(169, 222, 249, 0.24);
+    width: 795px;
+    height: 339px;
+  }
+  .exploring-the-amazing-container,
+  .group-child17 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .exploring-the-amazing-nature-w-wrapper {
+    position: absolute;
+    top: 86px;
+    left: 86px;
+    width: 550px;
+    height: 60px;
+  }
+  .antman-wasp {
+    position: absolute;
+    top: 2px;
+    left: 112px;
+    font-size: var(--font-size-base-6);
+    color: var(--color1);
+  }
+  .group-parent6,
+  .paul-rudd-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 24px;
+  }
+  .group-parent6 {
+    top: 9px;
+    left: 86px;
+    width: 468px;
+    height: 52px;
+  }
+  .rectangle-parent6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 554px;
+    height: 70px;
+    font-size: var(--font-size-lgi-4);
+  }
+  .group-child19 {
+    position: absolute;
+    top: 170px;
+    left: 86px;
+    width: 645px;
+    height: 265px;
+    object-fit: cover;
+  }
+  .group-parent5 {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 731px;
+    height: 435px;
+  }
+  .rectangle-parent5 {
+    position: absolute;
+    top: 685px;
+    left: 271px;
+    width: 795px;
+    height: 459px;
+  }
+  .home-page {
+    position: relative;
+    background-color: var(--color-aliceblue);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base-6);
+    color: var(--color);
+    font-family: var(--font-sora);
+  }
+  
