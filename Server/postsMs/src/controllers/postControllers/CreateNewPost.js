@@ -1,5 +1,5 @@
 const mssql = require('mssql');
-const config = require('../config/userConfig');
+const config = require('../../config/userConfig');
 
 async function CreateNewPost(req, res) {
   try{

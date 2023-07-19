@@ -14,7 +14,7 @@ app.use(express.json());
 
 async function startApp(){
 try {
-    console.log(config)
+    // console.log(config)
     const pool = await sql.connect(config)
     console.log("App Connected to database");
 

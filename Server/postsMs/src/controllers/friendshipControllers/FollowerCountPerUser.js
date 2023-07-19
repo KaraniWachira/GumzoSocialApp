@@ -1,6 +1,7 @@
 const mssql = require('mssql');
 const config = require('../../config/userConfig');
 
+
 async function FollowerCountPerUser(req, res) {
   try{
         let sql = await mssql.connect(config);

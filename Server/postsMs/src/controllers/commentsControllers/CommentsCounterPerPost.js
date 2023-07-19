@@ -1,6 +1,6 @@
 const mssql = require('mssql');
-const config = require('../config/userConfig');
-const { message } = require('../../../auth/src/validators/userRegistrationvalidators');
+const config = require('../../config/userConfig');
+const { message } = require('../../../../auth/src/validators/userRegistrationvalidators');
 
 async function CommentsCounterPerPost(req, res) {
   try{

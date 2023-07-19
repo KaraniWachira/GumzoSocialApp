@@ -1,13 +1,19 @@
 const express = require('express');
 const session = require('express-session');
 const redis = require('redis');
-const logicRoutes = require('./routers/LogicRoutes');
 const sql = require('mssql')
 const config = require('../../auth/src/config/userConfig')
 const RedisStore = require('connect-redis').default;
 const { v4 } = require("uuid")
 const {createClient} = require("redis")
 require('dotenv').config();
+
+const commentsRoutes = require('./routers/commentsRoutes/commentsRoutes');
+const friendshipRoutes = require('./routers/friendshipRoutes/friendshipRoutes');
+const postRoutes = require('./routers/postRoutes/postRoutes');
+const reactionsRoutes = require('./routers/reactionsRoutes/reactionsRoutes');
+const replyRoutes = require('./routers/replyRoutes/replyRoutes');
+const userRoutes = require('./routers/userRoutes/userRoutes');
 
 const app = express();
 app.use(express.json());
@@ -60,7 +66,13 @@ app.use('/', async(req, res, next)=>{
   }
 })
 
-app.use(logicRoutes)
+app.use(commentsRoutes);
+app.use(friendshipRoutes);
+app.use(postRoutes);
+app.use(reactionsRoutes);
+app.use(replyRoutes);
+app.use(userRoutes);
+
 
 app.get('/', (req, res) => {
   res.send('gumzo social');
