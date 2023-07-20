@@ -22,15 +22,15 @@ Gumzo is a social media app that allows users to connect with friends, share upd
 
 ## Technologies Used
 
-- **Frontend**: The frontend of the app is built using React.js, HTML, CSS, and JavaScript. It utilizes modern UI libraries and frameworks for a responsive and interactive user interface.
+- **Frontend**: The frontend of the app is built using React.
 
-- **Backend**: The backend is developed using Node.js and Express.js. It interacts with a MSSQL database to store and retrieve user information, posts, and other data.
+- **Backend**: The backend is developed using Node.js and Express.js.
 
-- **Authentication**: User authentication is implemented using JWT (JSON Web Tokens) for secure and stateless authentication.
+- **Database**:  It interacts with a MsSQL database to store and retrieve user information, posts, likes & comments.
 
-- **Real-time Updates**: Real-time functionality is achieved using WebSockets or a similar technology to provide instant notifications and live updates.
-
-- **Image and Video Hosting**: The app utilizes cloud-based storage services (e.g., Amazon S3) to handle image and video uploads and hosting.
+- **Authentication**:  User authentication is implemented using Joi.
+  
+- **Image and Video Hosting**: The app utilizes cloudinary to handle image and video uploads.
 
 ## Getting Started
 
