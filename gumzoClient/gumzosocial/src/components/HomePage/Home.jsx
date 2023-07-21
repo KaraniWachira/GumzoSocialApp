@@ -1,7 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Home.css"
+import { useNavigate } from 'react-router-dom'
+
+
 
 const Home = () => {
+  const navigate = useNavigate();
+  const [caption, setCaption] = useState('');
+  
 
   return (
     <div className="home-page">
@@ -45,6 +51,7 @@ const Home = () => {
         <div className="explore-panel">Settings</div>
         <div className="settings-group">
           <div className="profile">Settings</div>
+        
           <img className="group-icon" alt="" src="/group-83.svg" />
         </div>
         <div className="security-data-parent">
@@ -85,10 +92,11 @@ const Home = () => {
           />
         </div>
       </div>
-      <img className="left-panel-item" alt="" src="/vector-1.svg" />
+     
       <div className="ellipse-parent">
         <img className="ellipse-icon" alt="" src="/ellipse-1@2x.png" />
         <div className="natasha-ramanoff-parent">
+          <h6 className='notifications'>Notifications</h6>
           <div className="natasha-ramanoff">Natasha Ramanoff</div>
           <div className="tagged-you-in">
             Tagged you in her 250th post a..
@@ -118,6 +126,7 @@ const Home = () => {
         <img className="group-child8" alt="" src="/group-27.svg" />
       </div>
     </div>
+
     <div className="group-div">
       <img className="group-child9" alt="" src="/group-6.svg" />
       <div className="group-parent1">
@@ -168,7 +177,13 @@ const Home = () => {
           <div className="group-child14" />
           <div className="write-something-here-parent">
             <div className="write-something-here">
-              Write something here...
+            <input
+              type="text"
+              placeholder="anza gumzo"
+              className="write-something-here"
+              // value={caption}
+              // onChange={(e) => setFirstName(e.target.value)}
+            />
             </div>
             <img
               className="vuesaxboldedit-2-icon1"
