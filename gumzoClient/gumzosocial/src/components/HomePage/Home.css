@@ -268,6 +268,7 @@
     height: 40px;
     object-fit: cover;
   }
+
   .natasha-ramanoff {
     position: absolute;
     top: 0;
@@ -289,6 +290,13 @@
     width: 200px;
     height: 38px;
   }
+
+  .natasha-ramanoff-parent h6{
+    margin-top: -30px;
+    color: var(--color-tomato);
+    
+  }
+
   .ellipse-parent {
     top: 292px;
     left: 32px;
