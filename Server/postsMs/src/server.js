@@ -78,7 +78,7 @@ app.get('/', (req, res) => {
   res.send('gumzo social');
 });
 
-const port = 5050;
+const port = process.env.PORT || 4300;
 app.listen(port, () => {
   console.log(`Server is listening at port ${port}`);
 });

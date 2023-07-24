@@ -40,7 +40,7 @@ export const Login = () => {
   };
 
   return (
-    <div className="login template d-flex justify-content-center align-items-center vh-100 bg-primary">
+    <div className="login template d-flex justify-content-right align-items-center vh-100 background-image: url(background-image: url(https://unsplash.com/photos/V5vqWC9gyEU)" >
       <div className="form-container p-5 rounded bg-white">
         <form onSubmit={handleSubmit}>
           <h3 className="text-center">Sign in to Gumzo</h3>
