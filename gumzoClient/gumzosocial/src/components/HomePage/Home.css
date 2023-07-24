@@ -1,10 +1,14 @@
 
+.home-container {
+  margin: 0;
+}
+
 .home-page-child {
     position: absolute;
-    top: 0;
+    top: 5;
     left: 0;
     background-color: #a9def9;
-    width: 1440px;
+    width: 1370px;
     height: 135px;
   }
   .group-child,
@@ -176,7 +180,7 @@
     top: 135px;
     left: 0;
     background-color: var(--color-white);
-    box-shadow: -3px 0 50px rgba(169, 222, 249, 0.25);
+    box-shadow: -3px 0 10px #343541;
     width: 215px;
     height: 889px;
     overflow: hidden;
@@ -294,7 +298,6 @@
   .natasha-ramanoff-parent h6{
     margin-top: -30px;
     color: var(--color-tomato);
-    
   }
 
   .ellipse-parent {
@@ -322,12 +325,13 @@
   }
   .left-panel1 {
     top: 175px;
-    left: 1122px;
-    background-color: var(--color-white);
+    left: 1035px;
+    background-color: #A8DEF9;
     box-shadow: -3px 0 50px rgba(169, 222, 249, 0.25);
     width: 318px;
     height: 410px;
     overflow: hidden;
+    border-radius: 10px;
     font-size: var(--font-size-smi-5);
   }
   .boost-your-post {
@@ -397,11 +401,13 @@
   }
   .left-panel2 {
     top: 617px;
-    left: 1122px;
-    background-color: var(--color-white);
+    left: 1035px;
+    background-color: #A8DEF9;
     box-shadow: -3px 0 50px rgba(169, 222, 249, 0.25);
     width: 318px;
     height: 407px;
+    border-radius: 10px;
+
     overflow: hidden;
     font-size: var(--font-size-lgi-4);
     color: var(--color-tomato);
@@ -468,7 +474,7 @@
   .group-child11,
   .group-div {
     top: 39px;
-    left: 948px;
+    left: 990px;
     width: 436px;
   }
   .group-child11 {
@@ -477,8 +483,9 @@
     background-color: var(--color-white);
     box-shadow: 0 2px 50px rgba(169, 222, 249, 0.24);
     width: 795px;
-    height: 215px;
+    height: 230px;
   }
+
   .ellipse-div,
   .vector-icon {
     position: absolute;
@@ -506,6 +513,7 @@
     top: 10px;
     left: 52px;
     font-weight: 500;
+    cursor: pointer;
   }
   .ellipse-container,
   .ellipse-parent1 {
@@ -533,29 +541,24 @@
     left: 0;
     width: 599px;
   }
+  /* write-something */
   .group-child14 {
     background-color: var(--color-aliceblue);
     width: 747px;
     height: 79px;
+
   }
-  .write-something-here {
+
+
+  .write-something-here-parent,
+  .post-input-space {
     position: absolute;
     top: 0;
-    left: 24px;
+    left: -0.5px;
+    width: 747px;
+    height: 76px;
   }
-  .vuesaxboldedit-2-icon1,
-  .write-something-here-parent {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 16px;
-    height: 16px;
-  }
-  .write-something-here-parent {
-    top: 16px;
-    left: 16px;
-    width: 172px;
-  }
+ 
   .rectangle-parent2 {
     position: absolute;
     top: 88px;
@@ -565,6 +568,20 @@
     font-size: var(--font-size-smi-5);
     color: var(--color1);
   }
+  .post-btn {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    margin-left: 40rem;
+    margin-top: 9rem;
+    width: 96px;
+    height: 32px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-tomato);
+    color: var(--color-white);
+    cursor: pointer;
+  }
+
   .vector-parent {
     position: absolute;
     top: 24px;
@@ -575,9 +592,11 @@
   .rectangle-parent1 {
     position: absolute;
     top: 175px;
-    left: 271px;
+    left: 230px;
     width: 795px;
     height: 215px;
+    border-radius: 10px;
+    box-shadow: -3px 0 50px rgba(169, 222, 249, 0.25);
   }
   .tony-stark-3000 {
     position: absolute;
@@ -641,7 +660,7 @@
   .rectangle-parent3 {
     position: absolute;
     top: 430px;
-    left: 271px;
+    left: 231px;
     width: 795px;
     height: 215px;
     font-size: var(--font-size-lgi-4);
@@ -712,7 +731,7 @@
   .rectangle-parent5 {
     position: absolute;
     top: 685px;
-    left: 271px;
+    left: 230px;
     width: 795px;
     height: 459px;
   }
@@ -727,4 +746,49 @@
     color: var(--color);
     font-family: var(--font-sora);
   }
+
+  /* media queries */
+  /* mobile phone screen size */
+@media (max-width: 767px) {
+  .left-panel:none;
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* tablet screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .home-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "home-page-child home-page-inner"
+    "rectangle-parent home-page-inner"
+    "home-page-item home-page-inner"
+    "left-panel home-page-inner"
+  }
+  .left-panel {
+    width: 25%;
+  }
+
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
   

@@ -51,7 +51,7 @@ const Signup = () => {
   };
 
   return (
-    <div className="signup template d-flex justify-content-center align-items-center vh-25 bg-primary">
+    <div className="signup template d-flex justify-content-right align-items-center vh-25 bg-primary">
       <div className="form-container p-5 mh-25 rounded bg-white">
         <form onSubmit={handleSubmit}>
           <h3 className="text-center">Sign up to Gumzo</h3>
